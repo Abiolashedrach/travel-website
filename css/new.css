@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    top:0%;
+}
+body{
+    background: #0A1331;
+}
+button{
+    cursor: pointer;
+}
+          
+            .hero-img{ 
+             display: flex;
+              justify-content: space-evenly;
+              padding-top: 2%;
+              
+            }
+           
+            .hero-img img{ 
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+                width: 450px;
+                height: 405px;   
+                align-items:flex-start; 
+                padding:3%;        
+               border-radius: 70px;
+            }
+            .hero-info{
+              display: grid;
+               align-items:center;
+                z-index: 1;
+                color: #f8f8f8;
+               
+               
+            }
+            .book {
+             
+              display:flex;
+              align-items:center;
+              justify-content:center;
+            }
+            .book-btn{
+         
+                font-size: 20px;
+                border-radius: 20px;
+                background: #47BA4C;
+                border: none;
+              width: 200px; 
+              padding:2%;
+            }
+            .hero-header{
+              text-align:center;
+              justify-content:center;
+                align-items:center;
+                font-size: 30px;
+                padding-top: 10%;
+            }
+            .hero-text{
+              text-align:center;
+              justify-content:center;
+                align-items:center;
+                padding: 5%;
+                width:100%;
+            }
+            .image2{
+              display:flex;
+                align-items: center;
+                margin-top: 20%;
+                justify-content:center;
+            }
+            .tour-head{
+                padding: 3%;
+                font-size: 60px;
+               text-align: center;
+                flex-shrink: 0;
+                color: #ffff;
+                opacity: 0.5;
+                width: 100%;
+            }
+          .tour-content{
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            padding: 5%;
+          }
+          .tour-img{
+           margin-left: 3%;
+           border: none;
+           border-radius: 25%;
+            width: 500px;
+            padding: 3%;
+            height: 600px;
+          }
+          .tour-text{
+            text-align: center;
+            color: white;
+            background: black;
+            padding: 5%;
+            width:500px;
+            height:400px;
+            border: none;
+            border-radius: 15%;
+          }
+          .tour-text p{
+            float:left;
+            padding:5%;
+          }
+          .study-abroad{
+            display: flex;
+            flex-direction:column;
+            padding:2%;
+          }
+          .study-head{
+              display: grid;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0%;
+            padding: 2%;
+        }
+        .study-head img{
+            border: none;
+            border-radius: 30%;
+            width: 500px;
+        }
+        .image-gallery{
+          display: grid;
+          grid-template-columns: repeat(3, 2fr);
+          padding: 5%;
+          border-radius: 5%;
+        }
+        .image-gallery img{
+          width: 500px;
+          height: 400px;
+          padding: 5%;
+         
+        }
+        ul{
+          list-style: none;
+        }
+        .countries{
+          padding: 3%;
+          color: #f8f8f8;
+          font-size: 25px;
+        }
+        .Location{
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+
+        }
+        .Location-header{
+          padding: 3%;
+          font-size: 50px;
+          color:#5a6791;
+        }
+        footer{
+          opacity:0.4;
+        }
+
+       /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .countries{
+    padding: 3%;
+    
+    font-size: 15px;
+  }
+  .Location{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .Location-header{
+    padding: 3%;
+    font-size: 30px;
+   
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .countries{
+    padding: 3%;
+    color: #f8f8f8;
+    font-size: 20px;
+  }
+  .Location{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .Location-header{
+    padding: 3%;
+    font-size: 40px;
+    color:#5a6791;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .countries{
+    padding: 3%;
+    color: #f8f8f8;
+    font-size: 22px;
+  }
+  .Location{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .Location-header{
+    padding: 3%;
+    font-size: 45px;
+    color:#5a6791;
+  }
+}
